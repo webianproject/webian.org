@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Webian</title>
+  <link rel="stylesheet" type="text/css" href="../site.css" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/jquery.corner.js"></script>
+  <script type="text/javascript" src="../js/jquery.timeago.js"></script>
+  <script type="text/javascript" src="../js/jquery.jgfeed.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+	$(".box").corner("7px");
+		$.jGFeed('http://groups.google.com/group/webian/feed/rss_v2_0_topics.xml', function(feeds){
+		// Check for errors
+		if(!feeds){
+			$("#discussions ul").append("<li>Nothing at the moment</li>");
+		}
+		// do whatever you want with feeds here
+		for(var i=0; i<feeds.entries.length; i++) {
+			var entry = feeds.entries[i];
+			var d = new Date();
+			d.setTime(Date.parse(entry.publishedDate)-28800000);
+			// Entry title
+			$("#discussions ul").append("<li>"+
+				"<a href=\""+entry.link+"\">"+
+				entry.title+
+				"</a><br />"+
+				entry.contentSnippet+
+				"<br /><span class=\"datestamp\">"+
+				$.timeago(d)+
+				"</span></li>");
+		}
+	}, 5);
+   });
+
+  </script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16744701-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div id="header">
+  <div id="header_content">
+    <a href="/">
+      <img id="logo" src="../images/webian_logo.png" alt="Webian" />
+    </a>
+    <ul id="main_nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/dev">Development</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><strong><a href="/discussions">Discussions</a></strong></li>
+    </ul>
+  </div>
+</div>
+  
+<div id="main" class="box">
+
+  <h2>Discussions</h2>
+
+  <h3>Mailing List</h3>
+  <p>Visit the <a href="http://groups.google.com/group/webian">Webian Google Group</a> for discussions about the Webian project.</p>
+  <div id="discussions" class="feed">
+    <strong>Recent Discussions</strong>
+    <ul></ul>
+  </div>
+  
+  <h3>IRC</h3>
+  <p>For realtime discussions try Internet Relay Chat. Join #webian on <a href="http://freenode.net">irc.freenode.net</a></p>
+
+</div>
+  
+<div id="footer">
+  &copy; Webian 2009
+</div>
+  
+
+  
+</body>
+</html>

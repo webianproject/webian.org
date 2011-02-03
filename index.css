@@ -1,0 +1,155 @@
+#banner {
+	width: 63.07em;
+
+	margin: 1.54em auto;
+	padding: 1.54em;
+	background-image: url('images/banner_bg.png');
+	background-color: #443b90;	
+}
+
+.headline {
+	font-size: 2.31em;
+	color: #fff;	
+	margin: 0;
+}
+
+.subheadline {
+	font-size: 1.38em;
+	color: #ccc;	
+	width: 22em;
+}
+
+.button {
+	background-color: #232323;
+	padding: 0.4em;
+	color: #ccc;	
+}
+
+.button:hover {
+	background-color: #2f2f2f;
+	text-decoration: none;
+	color: #fff;	
+}
+
+#details {
+	overflow: hidden;
+}	
+
+
+/*#projects {
+	width: 63.07em;
+	margin: 0 auto;	
+	padding: 1.54em;
+	background-color: #fff;
+	border: solid 1px #dadada;	
+}
+
+.project {
+	width: 30.53em;
+	padding-right: 1em;
+	float: left;	
+}
+
+.project img {
+	border: none;
+	margin: 0;	
+}
+
+.project p {
+	margin: 0;	
+}
+
+#homeserver a h3 {
+	color: #0044aa;
+}
+
+#shell a h3 {
+	color: #44aa00;
+}*/
+
+#details, #recent_activity {
+	width: 63.07em;
+	margin: 1.54em auto 0 auto;	
+	padding: 1.54em;
+	background-color: #fff;
+	border: solid 1px #dadada;	
+}
+
+#recent_activity h3 {
+	margin: 0;	
+}
+
+.feed ul {
+	margin: 0;
+	padding: 0;	
+}
+
+.feed li {
+	padding: 0;
+	margin: 0.5em 0;
+	list-style: none;	
+}
+
+.datestamp {
+	color: #999;	
+}
+
+#blog {
+	width: 18.9em;
+	padding: 1em;
+	float: left;	
+}
+
+#discussions {
+	width: 18.9em;
+	padding: 1em;
+	float: left;
+	border-left: solid 1px #dadada;
+	border-right: solid 1px #dadada;
+}
+
+#commits {
+	width: 18.9em;
+	float: left;
+	padding: 1em;
+}
+
+.big_cheat {
+	clear: both;
+}
+
+#sitemap {
+	width: 58.15em;
+	margin: 0 auto;
+	padding: 0 4em;
+}
+
+.sitemap_category {
+	width: 10.5em;
+	float: left;
+	margin: 2em;
+}
+
+.sitemap_category h3 {
+	font-size: 1em;
+	color: #666666;	
+}
+
+.sitemap_category ul {
+	margin: 0.5em 0;
+	padding: 0;
+	list-style: none;	
+}
+
+.sitemap_category li {
+	margin: 0;	
+}
+
+.sitemap_category a {
+	color: #666666;	
+}
+
+.icon {
+	vertical-align: middle;
+	margin-right: 0.2em;	
+}

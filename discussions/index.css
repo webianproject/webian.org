@@ -1,0 +1,26 @@
+#main {
+	width: 63.07em;
+	margin: 2em auto;	
+	padding: 1.54em;
+	background-color: #fff;
+	border: solid 1px #dadada;	
+}
+
+h3 {
+	margin-top: 1em;	
+}
+
+.feed ul {
+	margin: 0;
+	padding: 0;	
+}
+
+.feed li {
+	padding: 0;
+	margin: 0.5em 0;
+	list-style: none;	
+}
+
+.datestamp {
+	color: #999;	
+}
