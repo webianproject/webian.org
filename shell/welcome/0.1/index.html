@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <meta charset="utf-8"> 
+  <title>Welcome</title>
+  <style>
+  @font-face {
+    font-family: 'BelligerentMadnessRegular';
+    src: url('fonts/belligerent-webfont.eot?') format('eot'),
+         url('fonts/belligerent-webfont.woff') format('woff'),
+         url('fonts/belligerent-webfont.ttf') format('truetype'),
+         url('fonts/belligerent-webfont.svg#webfontqdGI9bTD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+  
+  html {
+    height: 100%;	  
+  }
+  
+  body {
+    background-color: #000;
+    background-image: -moz-radial-gradient(closest-side, #434343 0%, #000 100%);
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  img#logo {
+
+    margin: 50px;
+  }
+  
+  aside.note {
+    margin: 25px auto;
+    background-color: #ffe785;
+    display: block;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    font: 16px 'BelligerentMadnessRegular', Arial, sans-serif;
+    background: -moz-linear-gradient(-45deg, #ffe785, #f1c100);
+    -moz-transform: rotate(-7deg);
+  }
+  
+  aside.note h2 {
+    font-size: 22px;	  
+  }
+  
+  </style>
+</head>
+
+<body>
+
+  <img src="webian_shell_0.1_logo.png" alt="Webian Shell 0.1" id="logo">
+  
+  <aside class="note">
+    <h2>Welcome to Webian Shell 0.1</h2>
+    <p>Webian Shell strips your computer interface down the bare essentials
+    needed to access web sites and web apps, without all that other clutter.</p>
+    <p>This is an experimental early release to try to convey the idea behind
+    the project, you can find out more <a href="/about">here</a>.</p>
+  </aside>
+
+</body>
+
+<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay";  
+  feedback_widget_options.company = "webian";
+  feedback_widget_options.placement = "right";
+  feedback_widget_options.color = "#222";
+  feedback_widget_options.style = "idea";
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+</html>
