@@ -3,6 +3,7 @@
 
 <head> 
   <meta charset="utf-8"> 
+  <title>Webian - something's coming</title>
   <style>
   @font-face {
     font-family: 'RadiolandRegular';
@@ -36,14 +37,14 @@
   }
   
   header {
-  	height: 45%;	  
+  	height: 40%;	  
   }
   
   article {
-  	  height: 35%;
+  	  height: 40%;
   }
   
-  article p {
+  article p#countdown {
   	background-color: rgba(0,0,0,0.5);
   	border-radius: 10px;
   	-moz-border-radius: 10px;
@@ -55,17 +56,25 @@
   	font-size: 72px;
   	color: #99ff55;
   	font: 72px 'RadiolandRegular', Arial, sans-serif;
+  	display: block;
+  	margin: 0 auto;
+  	width: 420px;
+  	text-align: left;
   }
   
   img#logo {
-
     margin: 40px;
   }
   
   footer {
   	height: 20%;	  
   }
+  
+  footer a img {
+  	  border: none;
+  }
   </style>
+  
 </head>
 
 <body>
@@ -74,12 +83,39 @@
   </header>
 
   <article>
-    <p>168:00:00</p>
+    <p id="countdown">000:00:00</p>
   </article>
 
   <footer>
     <p>Be the first to know:</p>
+    <a href="http://www.facebook.com/pages/Webian/113279228682092"><img src="images/facebook.png" alt="Facebook" /></a>
+    <a href="http://twitter.com/webianproject"><img src="images/twitter.png" alt="Twitter" /></a>
+    <a href="http://identi.ca/webian"><img src="images/identica.png" alt="Identica" /></a>
   </footer>
 </body>
+
+
+<script>
+  function incrementCountdown() {
+  	  var epoch_to_release = 1300492800000; // no. of milliseconds from epoch to release
+  	  var epoch_to_now = new Date().getTime();
+  	  var ms = epoch_to_release - epoch_to_now;
+  	  if(ms < 0) { 
+  	  	location.reload(true);
+  	  } else {
+  	  	  var countdown = new Date(ms);
+  	  	  var hours = Math.floor(countdown.getTime()/3600000.0) + "";
+  	  	  if (hours.length < 2) { hours = "0" + hours }
+  	  	  if (hours.length < 3) { hours = "0" + hours }
+  	  	  var minutes = countdown.getUTCMinutes() + "";
+  	  	  if (minutes.length < 2) { minutes = "0" + minutes }
+  	  	  var seconds = countdown.getUTCSeconds() + "";
+  	  	  if (seconds.length < 2) { seconds = "0" + seconds }
+  	  	  document.getElementById("countdown").innerHTML = hours + ":" + minutes
+  	  	    + ":" + seconds;
+  	  }
+  }
+  var int=self.setInterval("incrementCountdown()",1000);
+</script>
 
 </html>
