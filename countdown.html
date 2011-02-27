@@ -8,6 +8,10 @@
     height: 100%;	  
   }
   
+  header, footer, article {
+  	display: block;		  
+  }
+  
   body {
     background-color: #000;
     background-image: -moz-radial-gradient(closest-side, #434343 0%, #000 100%);
@@ -17,30 +21,50 @@
     overflow: hidden;
     color: #fff;
     font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+  }
+  
+  header {
+  	height: 40%;	  
+  }
+  
+  article {
+  	  height: 40%;
+  }
+  
+  article p {
+  	background-color: #000;
+  	border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	display: inline;
+  	padding: 10px;
+  	font-size: 72px;
+  	color: #99ff55;
   }
   
   img#logo {
 
-    margin: 50px;
+    margin: 40px;
+  }
+  
+  footer {
+  	height: 20%;	  
   }
   </style>
 </head>
 
 <body>
+  <header>
+    <img id="logo" src="images/webian_logo.png" alt="Webian" /> 
+  </header>
 
-  <img id="logo" src="images/webian_logo.png" alt="Webian" />
+  <article>
+    <p>168:00:00</p>
+  </article>
 
-  <hgroup>
-    <h1>Pure Web<h1>
-    <h2>Ditch the desktop, live on the web.</h2>
-  </hgroup>
-
-  <div id="countdown_timer">
-
-  </div>
-  <p>Something's coming.</p>
-  <p>Be the first to know:</p>
-
+  <footer>
+    <p>Be the first to know:</p>
+  </footer>
 </body>
 
 </html>
