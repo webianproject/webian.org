@@ -4,6 +4,17 @@
 <head> 
   <meta charset="utf-8"> 
   <style>
+  @font-face {
+    font-family: 'RadiolandRegular';
+    src: url('fonts/RADIOLAND-webfont.eot#') format('eot'),
+         url('fonts/RADIOLAND-webfont.woff') format('woff'),
+         url('fonts/RADIOLAND-webfont.ttf') format('truetype'),
+         url('fonts/RADIOLAND-webfont.svg#webfontpHkzWTHE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+  
   html {
     height: 100%;	  
   }
@@ -14,8 +25,8 @@
   
   body {
     background-color: #000;
-    background-image: -moz-radial-gradient(closest-side, #434343 0%, #000 100%);
-    background: -webkit-radial-gradient(closest-side, #434343 0%, #000 100%);
+    background-image: -moz-radial-gradient(closest-side, #434343 0%, #000 100%);   
+    background-image: -webkit-gradient(radial, center center, 0, center center, 300, from(#434343), to(black));
     text-align: center;
     height: 100%;
     overflow: hidden;
@@ -25,21 +36,25 @@
   }
   
   header {
-  	height: 40%;	  
+  	height: 45%;	  
   }
   
   article {
-  	  height: 40%;
+  	  height: 35%;
   }
   
   article p {
-  	background-color: #000;
+  	background-color: rgba(0,0,0,0.5);
   	border-radius: 10px;
   	-moz-border-radius: 10px;
   	display: inline;
-  	padding: 10px;
+  	padding-top: 30px;
+  	padding-bottom: 10px;
+  	padding-left: 20px;
+  	padding-right: 20px;
   	font-size: 72px;
   	color: #99ff55;
+  	font: 72px 'RadiolandRegular', Arial, sans-serif;
   }
   
   img#logo {
