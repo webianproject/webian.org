@@ -51,26 +51,33 @@
 
   <section id="apps">
     <h1>Apps</h1>
-    <p><a href="/photos"><img src="images/webian_photos_logo-dark.png" alt="Webian Photos" /></a></p>
-    <p>Capture, organise, view and share your photos.</p>
+    <div id="apps_headline">
+      <h1>Host Your Own</h1>
+      <p>Open web apps you can host yourself</p>
+    </div>
+    <div id="app_descriptions">
+      <p><a href="/photos"><img src="images/webian_photos_logo-dark.png" alt="Webian Photos" /></a></p>
+      <p>Capture, organise, view and share your photos.</p>
+    </div>
   </section>
 
   <section id="recent_activity">
     <h1>Recent Activity</h1>
-    <div id="blog" class="feed">
+    
+    <article id="blog" class="feed">
       <h2>Blog</h3>
       <ul></ul>
-    </div>
+    </article>
   
-    <div id="discussions" class="feed">
+    <article id="discussions" class="feed">
       <h2>Discussions</h3>
       <ul></ul>
-    </div>
+    </article>
   
-    <div id="commits" class="feed">
+    <article id="commits" class="feed">
       <h2>Development</h3>
       <ul></ul>
-    </div>
+    </article>
   </section>
 
   <footer>
@@ -80,6 +87,37 @@
         <li><a href="http://twitter.com/webianproject"><img src="images/twitter.png" alt="Twitter" /></a></li>
         <li><a href="http://identi.ca/webian"><img src="images/identica.png" alt="Identica" /></a></li>
       </ul>
+    </div>
+    <div id="sitemap">
+      <div class="sitemap_category">
+        <h3>Webian</h3>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://getsatisifaction.com/webian">Support</a></li>
+          <li><a href="http://tola.me.uk/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sitemap_category">
+        <h3>Development</h3>
+        <ul>
+          <li><a href="/dev/wiki">Wiki</a></li>
+          <li><a href="/dev/browser">Source code</a></li>
+          <li><a href="https://www.pivotaltracker.com/projects/175473">Tracker (Shell)</a></li>
+        </ul>
+      </div>
+      <div class="sitemap_category">
+        <h3>Blog</h3>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="sitemap_category">
+        <h3>Discussions</h3>
+        <ul>
+          <li><a href="/discussions">Mailing List</a></li>
+          <li><a href="/discussions">IRC</a></li>
+        </ul>
+       </div>
     </div>
     <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
   </footer>

@@ -145,6 +145,20 @@ div#middle {
 	margin-left: 10px;
 }
 
+#middle section#apps #apps_headline, #middle section#apps #app_descriptions {
+	width: 265px;
+	float: left;
+}
+
+#middle section#apps #apps_headline h1 {
+	font-size: 28px;
+	font-weight: normal;	
+}
+
+#middle section#apps #apps_headline p {
+	font-size: 16px;	
+}
+
 #middle section#shell p, #middle section#apps p {
 	text-align: center;
 	color: #666;
@@ -201,7 +215,40 @@ footer #follow ul li {
 	display: inline;
 }
 
+
+footer #sitemap {
+	width: 600px;
+	margin: 40px auto;
+	overflow: hidden;	
+}
+
+footer #sitemap .sitemap_category {
+	display: inline;
+	float: left;
+	width: 150px;
+	color: #4d4d4d;	
+}
+
+footer #sitemap h3 {
+	font-size: 16px;
+	margin: 0;	
+}
+
+footer #sitemap ul {
+	margin: 0;
+	padding: 0;	
+}
+
+footer #sitemap li {
+	list-style-type: none;	
+}
+
+footer #sitemap li a {
+	color: #4d4d4d;	
+}
+
 footer #copyright {
+	clear: both;
 	color: #4d4d4d;
 	text-align: center;
 }
