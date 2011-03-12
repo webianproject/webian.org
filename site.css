@@ -100,7 +100,8 @@ footer #follow ul li {
 footer #sitemap {
 	width: 600px;
 	margin: 40px auto;
-	overflow: hidden;	
+	overflow: hidden;
+	clear: both;	
 }
 
 footer #sitemap .sitemap_category {
