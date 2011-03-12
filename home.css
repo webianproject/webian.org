@@ -91,6 +91,7 @@
 #middle section#recent_activity {
 	float: left;
 	width: 960px;
+	margin-bottom: 40px;
 }
 
 #middle section#recent_activity h2 {
