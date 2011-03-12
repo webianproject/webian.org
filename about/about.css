@@ -1,0 +1,55 @@
+#middle section {
+	clear: both;
+	padding: 40px;
+	margin-top: 20px;
+}
+
+#middle section h1 {
+	font-size: 48px;
+	font-weight: normal;
+	margin-top: 0;	
+}
+
+#middle section h2 {
+	clear: both;	
+}
+
+#mission {
+	font-size: 16px;	
+}
+
+#middle #definition {
+	display: block;
+	margin: 40px auto;
+	width: 500px;	
+}
+
+#middle #definition img {
+	float: left;	
+}
+
+#middle #definition p {
+	width: 250px;
+	display: block;
+	float: left;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#middle #projects {
+	width: 600px;
+	margin: 0 auto;	
+}
+
+#middle #projects .project {
+	float: left;
+	width: 300px;	
+}
+
+#middle #projects .project p {
+	color: #999;	
+}
+
+#founder {
+	clear: both;	
+}

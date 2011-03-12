@@ -1,0 +1,121 @@
+#middle section h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#middle section#headline {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#middle section#headline #headline_description {
+	text-align: center;
+	width: 490px;
+	float: left;
+}
+
+#middle section#headline #headline_description h1 {
+	font-size: 45px;
+	font-weight: normal;
+	margin-top: 60px;
+	margin-bottom: 5px;
+}
+
+#middle section#headline #headline_description p {
+	font-size: 16px;
+	color: #666;
+	margin: 0 20px;
+	padding: 5px 20px;
+}
+
+.download_link {
+	width: 300px;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #96c262;
+	padding: 5px;
+	border: solid 2px #aaa;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-image: url('images/download_button_background.png');
+}
+
+.download_link:hover {
+	text-decoration: none;
+	background-image: none;
+}
+
+#middle section#headline #headline_screenshot {
+	float: left;
+}
+
+#middle section#shell, section#apps {
+	float: left;
+	min-height: 210px;
+}
+
+#middle section#shell {
+	width: 330px;
+	margin-right: 10px;
+}
+
+#middle section#apps {
+	width: 590px;
+	margin-left: 10px;
+}
+
+#middle section#apps #apps_headline, #middle section#apps #app_descriptions {
+	width: 265px;
+	float: left;
+}
+
+#middle section#apps #apps_headline h1 {
+	font-size: 28px;
+	font-weight: normal;	
+}
+
+#middle section#apps #apps_headline p {
+	font-size: 16px;	
+}
+
+#middle section#shell p, #middle section#apps p {
+	text-align: center;
+	color: #666;
+	margin-top: 0;
+}
+
+#middle section#recent_activity {
+	float: left;
+	width: 960px;
+}
+
+#middle section#recent_activity h2 {
+	margin: 0;
+	font-size: 16px;	
+}
+
+#middle section#recent_activity .feed {
+	width: 299px;
+	float: left;
+	padding: 10px;
+}
+
+#middle section#recent_activity .feed ul {
+	margin: 0;
+	padding: 0;	
+}
+
+#middle section#recent_activity .feed li {
+	padding: 0;
+	margin: 0.5em 0;
+	list-style: none;	
+}
+
+#middle section#recent_activity #discussions {
+	border-left: solid 1px #dadada;
+	border-right: solid 1px #dadada;
+}
