@@ -5,9 +5,10 @@
 }
 
 #middle section h1 {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: normal;
-	margin-top: 0;	
+	margin-top: 0;
+	margin-bottom: 20px;	
 }
 
 #middle section h2 {
@@ -19,8 +20,9 @@
 }
 
 #middle #definition {
+	clear: both;
 	display: block;
-	margin: 40px auto;
+	margin: 20px auto;
 	width: 500px;	
 }
 
