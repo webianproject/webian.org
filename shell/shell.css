@@ -1,0 +1,49 @@
+#middle section {
+	clear: both;
+	padding: 40px;
+	margin-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#middle section h1 {
+	font-size: 48px;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;	
+}
+
+#middle section h2 {
+	font-size: 20px;
+	text-align: center;
+	color: #666;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#middle section .download_link {
+	width: 300px;
+	text-align: center;
+	margin-top: 20px;	
+}
+
+#middle section img.cross_platform {
+	margin: 10px;	
+}
+
+#middle section .highlight {
+	width: 410px;
+	float: left;
+}
+
+#middle section h3 {
+	text-align: left;	
+}
+
+#middle section p {
+	text-align: left;	
+}
+
+#middle section img.screenshot {
+	margin: 10px auto;	
+}
