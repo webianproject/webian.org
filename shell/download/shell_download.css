@@ -1,0 +1,46 @@
+#middle section {
+	padding: 40px;	
+}
+
+#middle section h1 {
+	font-size: 48px;
+	font-weight: normal;
+	margin-top: 0;	
+}
+
+#middle section h2 {
+	font-size: 20px;
+	font-weight: normal;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	margin-top: 40px;
+}
+
+#middle section .download_link {
+	display: inline;	
+}
+
+#middle section ol li {
+	padding: 10px 0;	
+}
+
+#middle section ul.code {
+	font-family: monospace;	
+}
+
+#middle section ul li {
+	list-style-type: none;
+	padding: 0;
+}
+
+#middle section h2.mac {
+	background-image: url('../images/mac.png');	
+}
+
+#middle section h2.windows {
+	background-image: url('../images/windows.png');	
+}
+
+#middle section h2.linux {
+	background-image: url('../images/linux.png');	
+}
