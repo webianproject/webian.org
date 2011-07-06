@@ -74,7 +74,7 @@
 #middle section#recent_activity {
 	float: left;
 	width: 960px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 #middle section#recent_activity h2 {
@@ -102,4 +102,21 @@
 #middle section#recent_activity #discussions {
 	border-left: solid 1px #dadada;
 	border-right: solid 1px #dadada;
+}
+
+#middle section#press {
+	clear: both;	
+}
+
+#middle section#press h2 {
+	text-align: center;	
+}
+
+#middle section#press a#more_press {
+	text-align: center;
+	display: block;	
+}
+
+#middle section#press img {
+	padding: 5px 3px;	
 }
