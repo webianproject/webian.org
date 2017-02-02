@@ -1,0 +1,13 @@
+## make sure nobody gets the htaccess files
+<Files ~ "^[\._]ht">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</Files>
+
+Order allow,deny
+Deny from 159.53.46.
+#Deny from 213.107.231.129
+Allow from all
+
+
