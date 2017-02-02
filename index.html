@@ -1,154 +1,104 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
-  <meta charset="utf-8"> 
+<head>
+  <meta charset="utf-8">
   <title>Webian</title>
   <link rel="stylesheet" type="text/css" href="site.css" />
   <link rel="stylesheet" type="text/css" href="home.css" />
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.jgfeed.js"></script>
-  <script type="text/javascript" src="js/jquery.timeago.js"></script>
-  <script type="text/javascript" src="js/webian.js"></script>
+  <meta property="og:title" content="Webian" />
+  <meta property="og:description" content="An operating system for the open web." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://webian.org" />
+  <meta property="og:image" content="http://webian.org/images/webian_shell_tablet_mockup.png" />
 </head>
 
 <body>
-
-<div id="top">
-  <header>
-    <a href="/" alt="Webian">
-      <img id="logo" src="images/webian_logo.png" alt="Webian" />
-    </a>
-    <nav>
-      <ul>
-        <li><strong><a href="/" title="Webian Home Page">Home</a></strong></li>
-        <li><a href="/about" title="About Webian">About</a></li>
-        <li><a href="/blog" title="Webian Blog">Blog</a></li>
-        <li><a href="http://clinked.com/webian" title="Clinked Group">Community</a></li>
-        <li><a href="http://github.com/webianproject" title="GitHub">Development</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-
-<div id="middle">
-
-  <section id="headline">
-    <div id="headline_description">
-      <h1>Webian Shell 0.1</h1>
-      <p>A full screen web browser for devices that don't need a desktop.</p>
-      <a class="download_link" href="shell/download">Download Webian Shell 0.1</a><br />
-      <a href="shell">Find out more »</a>
-    </div>
-    <a href="/shell"><img id="headline_screenshot" src="images/webian_shell_0.1_mini_screenshot.png" alt="Webian Shell screenshot" /></a>
-  </section>
-
-  <section id="shell">
-    <h1>Shell</h1>
-    <p><a href="/shell"><img src="images/webian_shell_logo-dark.png" alt="Webian Shell" /></a></p>
-    <p>A full screen web browser for devices that don't need a desktop</p>
-  </section>
-
-  <section id="apps">
-    <h1>Apps</h1>
-    <div id="apps_headline">
-      <h1>Host Your Own</h1>
-      <p>Open web apps you can host yourself</p>
-    </div>
-    <div id="app_descriptions">
-      <p><a href="/photos"><img src="images/webian_photos_logo-dark.png" alt="Webian Photos" /></a></p>
-      <p>Capture, organise, view and share your photos.</p>
-    </div>
-  </section>
-
-  <section id="recent_activity">
-    <h1>Recent Activity</h1>
-    
-    <article id="blog" class="feed">
-      <h2>Blog</h3>
-      <ul></ul>
-    </article>
-  
-    <article id="community" class="feed">
-      <h2>Community</h3>
-      <ul></ul>
-    </article>
-  
-    <article id="commits" class="feed">
-      <h2>Development</h3>
-      <ul></ul>
-    </article>
-  </section>
-  
-  <section id="press">
-    <h2>Press</h2>
-    <a href="http://gadget.wired.it/news/mondo_computer/2011/06/20/webian-shell-0-1.html"><img src="images/wired_logo.png" alt="Wired" /></a>
-    <a href="http://www.pcworld.com/businesscenter/article/229617/webian_shell_a_new_answer_to_googles_chrome_os.html"><img src="images/pc_world_logo.png" alt="PC World" /></a>
-    <a href="http://www.engadget.com/2011/06/06/mozillas-webian-shell-interface-will-cloak-your-os-in-a-browser/"><img src="images/engadget_logo.png" alt="Engadget" /></a>
-    <a href="http://www.pcadvisor.co.uk/news/internet/3284541/mozilla-labs-launches-browser-like-webian-interface"><img src="images/pc_advisor_logo.png" alt="PC Advisor" /></a>
-    <a href="http://www.itproportal.com/2011/06/07/mozilla-launches-probable-chrome-os-competitor-codenamed-webian-shell/#ixzz1RGCmzhAn"><img src="images/it_pro_portal_logo.png" alt="IT Pro Portal" /></a>
-    <a href="http://www.linuxjournal.com/content/webian-shell-prototype-web-based-shell"><img src="images/linux_journal_logo.png" alt="Linux Journal" /></a>
-    <a id="more_press" href="/press">More »</a>
-  </section>
-
-  <footer>
-    <div id="sitemap">
-      <div class="sitemap_category">
-        <h3>Webian</h3>
+  <div id="top">
+    <header>
+      <a href="/"><img id="wordmark" src="images/webian_wordmark-white.png"></a>
+      <nav>
+        <a class="selected" href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/dev">Wiki</a>
+        <a href="/blog">Blog</a>
+        <a href="http://github.com/webianproject">Code</a>
+      </nav>
+    </header>
+  </div>
+  <div id="middle">
+    <section id="webian_shell" class="dark">
+      <div class="section_content">
+        <img id="webian_shell_mockup" class="mockup" src="images/webian_shell_tablet_mockup.png">
+        <div id="webian_shell_detail" class="detail">
+          <img id="webian_shell_wordmark" src="images/webian_shell_wordmark.png" alt="Webian Shell">
+          <p>A graphical shell for the web</p>
+          <a class="button" href="/shell">Find Out More</a>
+        </div>
+      </div>
+    </section>
+    <section id="webian_home" class="light">
+      <div class="section_content">
+        <img id="webian_home_mockup" class="mockup" src="images/webian_home_mockup.png">
+        <div id="webian_home_detail" class="detail">
+          <img id="webian_shell_wordmark" src="images/webian_home_wordmark.png" alt="Webian Home">
+          <p>Home web server</p>
+          <a class="button" href="/home">Find Out More</a>
+      </div>
+      </div>
+    </section>
+  </div>
+  <div id="bottom">
+    <footer>
+      <div id="sitemap">
+        <div class="sitemap_category">
+          <h3>Webian</h3>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="http://tola.me.uk/contact">Contact</a></li>
+            <li><a href="/press">Press Coverage</a></li>
+          </ul>
+        </div>
+        <div class="sitemap_category">
+          <h3>Discussions</h3>
+          <ul>
+            <li><a href="http://groups.google.com/group/webian">Mailing List</a></li>
+            <li><a href="irc://chat.freenode.net#webian">IRC</a></li>
+          </ul>
+        </div>
+        <div class="sitemap_category">
+          <h3>Development</h3>
+          <ul>
+            <li><a href="/dev">Wiki</li>
+            <li><a href="http://github.com/webianproject">Source Code</a></li>
+            <li><a href="http://github.com/webianproject">Issues</a></li>
+          </ul>
+         </div>
+      </div>
+      <div id="follow">Follow Webian on:
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="http://getsatisifaction.com/webian">Support</a></li>
-          <li><a href="http://tola.me.uk/contact">Contact</a></li>
-          <li><a href="/press">Press Coverage</a></li>
+          <li><a href="http://www.facebook.com/pages/Webian/113279228682092"><img src="images/facebook.png" alt="Facebook" /></a></li>
+          <li><a href="http://twitter.com/webianproject"><img src="images/twitter.png" alt="Twitter" /></a></li>
         </ul>
       </div>
-      <div class="sitemap_category">
-        <h3>Community</h3>
-        <ul>
-          <li><a href="http://clinked.com/webian">Clinked Group</a></li>
-          <li><a href="/discussions">Mailing List</a></li>
-          <li><a href="/discussions">IRC</a></li>
-        </ul>
-      </div>
-      <div class="sitemap_category">
-        <h3>Development</h3>
-        <ul>
-          <li><a href="http://github.com/webianproject">GitHub</a></li>
-        </ul>
-       </div>
-      <div class="sitemap_category">
-        <h3>Blog</h3>
-        <ul>
-          <li><a href="/blog">Blog</a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="follow">Follow Webian on:
-      <ul>
-        <li><a href="http://www.facebook.com/pages/Webian/113279228682092"><img src="images/facebook.png" alt="Facebook" /></a></li>
-        <li><a href="http://twitter.com/webianproject"><img src="images/twitter.png" alt="Twitter" /></a></li>
-        <li><a href="http://identi.ca/webian"><img src="images/identica.png" alt="Identica" /></a></li>
-      </ul>
-    </div>
-    <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
-    <p id="trademark_disclaimer"><em>Webian is not affiliated with <a href="http://www.debian.org">Debian</a>, Debian is a registered trademark <a href="http://www.spi-inc.org/corporate/trademarks/">owned by SPI</a>.</em></p>
-  </footer>
-  
-</div>
-<script type="text/javascript"> 
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16744701-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script> 
+      <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
+      <p id="trademark_disclaimer">Webian is not affiliated with <a href="http://www.debian.org">Debian</a>, Debian is a registered trademark <a href="http://www.spi-inc.org/corporate/trademarks/">owned by SPI</a>.
+      <br />Webian is not affiliated with <a href="http://mozilla.org">Mozilla</a>. Mozilla is a registered trademark of the <a href="http://mozilla.com">Mozilla Corporation</a>.</p>
+    </footer>
+  </div>
+  <script type="text/javascript">
 
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16744701-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </body>
 
 </html>

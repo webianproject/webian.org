@@ -1,57 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
-  <meta charset="utf-8"> 
-  <title>Webian - About</title>
+<head>
+  <meta charset="utf-8">
+  <title>Webian - Discussions</title>
   <link rel="stylesheet" type="text/css" href="../site.css" />
   <link rel="stylesheet" type="text/css" href="discussions.css" />
-  <script type="text/javascript" src="../js/jquery.js"></script>
-  <script type="text/javascript" src="../js/jquery.timeago.js"></script>
-  <script type="text/javascript" src="../js/jquery.jgfeed.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-	$.jGFeed('http://groups.google.com/group/webian/feed/rss_v2_0_topics.xml', function(feeds){
-	// Check for errors
-	if(!feeds){
-		$("#discussions ul").append("<li>Nothing at the moment</li>");
-	}
-	// do whatever you want with feeds here
-	for(var i=0; i<feeds.entries.length; i++) {
-		var entry = feeds.entries[i];
-		var d = new Date();
-		d.setTime(Date.parse(entry.publishedDate)-28800000);
-		// Entry title
-		$("#discussions ul").append("<li>"+
-			"<a href=\""+entry.link+"\">"+
-			entry.title+
-			"</a><br />"+
-			entry.contentSnippet+
-			"<br /><span class=\"datestamp\">"+
-			$.timeago(d)+
-			"</span></li>");
-	}
-	}, 5);
-   });
-
-  </script>
 </head>
 
 <body>
 
 <div id="top">
   <header>
-    <a href="/" alt="Webian">
-      <img id="logo" src="../images/webian_logo.png" alt="Webian" />
-    </a>
+    <a href="/"><img id="wordmark" src="../images/webian_wordmark-white.png"></a>
     <nav>
-      <ul>
-        <li><a href="/" title="Webian Home Page">Home</a></li>
-        <li><a href="/about" title="About Webian">About</a></li>
-        <li><a href="/blog" title="Webian Blog">Blog</a></li>
-        <li><a href="http://clinked.com/webian" title="Clinked Group">Community</a></li>
-        <li><a href="http://github.com/webianproject" title="GitHub">Development</a></li>
-      </ul>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/dev">Wiki</a>
+      <a href="http://github.com/webianproject">Code</a>
     </nav>
   </header>
 </div>
@@ -62,37 +29,33 @@
     <h1>Discussions</h1>
     <h2>Mailing List</h2>
     <p>Visit the <a href="http://groups.google.com/group/webian">Webian Google Group</a> for discussions about the Webian project.</p>
-    <div id="discussions" class="feed">
-      <strong>Recent Discussions</strong>
-      <ul></ul>
-    </div>
-  
+
   <h2>IRC</h2>
   <p>For realtime discussions try Internet Relay Chat. Join #webian on <a href="http://freenode.net">irc.freenode.net</a></p>
 
-    
-    
+
+
   </section>
-  
+
 </div>
 
 <footer>
   <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
 </footer>
 
-<script type="text/javascript"> 
- 
+<script type="text/javascript">
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-16744701-1']);
   _gaq.push(['_trackPageview']);
- 
+
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
- 
-</script> 
+
+</script>
 
 </body>
 

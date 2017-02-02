@@ -1,101 +1,91 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
-  <meta charset="utf-8"> 
+<head>
+  <meta charset="utf-8">
   <title>Webian Shell</title>
   <link rel="stylesheet" type="text/css" href="../site.css" />
   <link rel="stylesheet" type="text/css" href="shell.css" />
+  <meta property="og:title" content="Webian Shell" />
+  <meta property="og:description" content="A graphical shell for the web." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://webian.org/shell" />
+  <meta property="og:image" content="http://webian.org/images/webian_shell_tablet_mockup.png" />
 </head>
 
 <body>
 
-<div id="top">
-  <header>
-    <a href="/" alt="Webian">
-      <img id="logo" src="../images/webian_logo.png" alt="Webian" />
-    </a>
-    <nav>
-      <ul>
-        <li><a href="/" title="Webian Home Page">Home</a></li>
-        <li><strong><a href="/about" title="About Webian">About</a></strong></li>
-        <li><a href="/blog" title="Webian Blog">Blog</a></li>
-        <li><a href="http://clinked.com/webian" title="Clinked Group">Community</a></li>
-        <li><a href="http://github.com/webianproject" title="GitHub">Development</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
+  <div id="top">
+    <header>
+      <a href="/"><img id="wordmark" src="../images/webian_wordmark-white.png"></a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+        <a href="/dev">Wiki</a>
+        <a href="http://github.com/webianproject">Code</a>
+      </nav>
+    </header>
+  </div>
 
 <div id="middle">
+  <h2>
+    <img class="title" src="../images/webian_shell_wordmark.png" alt="Webian Shell"/>
+    <span class="subtitle">A graphical shell for the web</span>
+  </h2>
+  <section class="dark">
+    <div class="section_content">
+      <img class="mockup" src="../images/webian_shell_tablet_mockup.png">
+      <p>Webian Shell is a browser based operating system UI entirely dedicated to using the web.</p>
+      <p>The whole minimalistic UI is a web browser, the system back button is a browser back button and the task manager is a tab manager. By default the home screen is populated with websites and web apps the user has pinned, but any web page can be used as a home screen. Shell has bookmarks, top sites and browsing history.</p>
+      <h3>UI Mockups</h3>
+      <p>Below are the latest UI mockups for the tablet version of Webian Shell 0.3.</p>
+      <iframe src="https://docs.google.com/presentation/d/1T7J7dkmkm72USPBYyMdL7EfwEp9HNOp8QTxwKeFjSO0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-  <section id="main">
-    <h1>Webian Shell</h1>
-    <h2>A full screen web browser for devices that don't need a desktop.</h2>
-    <p>If you find most of the stuff you do on your PC these days happens in a
-    web browser then you might find that the desktop environment you used to 
-    depend on is now just getting in your way.</p>
-    <p>The idea of the Webian Shell project is to re-think your computer's 
-    interface as something much simpler which treats web applications as first
-    class citizens and does away with all the un-necessary clutter</p>
-    <img src="images/webian_shell_screenshot-800x600.png" alt="screenshot" 
-      class="screenshot" />
-    <p>Shell 0.1 is an early working prototype you can download today which 
-    piggybacks on your existing operating system to demonstrate the concept, 
-    with a view to getting your <a href="http://getsatisfaction.com/webian">
-    feedback</a>!</p>
-    
-    <a href="download" class="download_link">Download Webian Shell 0.1</a>
-    <img class="cross_platform" src="images/mac_windows_linux.png" alt="Mac, Windows, Linux" />
-    
-    <div class="highlight">
-      <h3>The Best of Both Worlds</h3>
-      <p>Shell takes the essential elements of your web browser,
-      desktop environment and window manager and combines them into a single 
-      minimalist graphical shell dedicated to using web applications</p>
+      <h3>Prototype</h3>
+      <p>Below is a demo video of an early prototype of this UI built as a connected devices experiment at Mozilla (the Webian project is not affiliated with Mozilla).</p>
+      <iframe width="750" height="450" src="https://www.youtube.com/embed/Ewvg_neKz4k" frameborder="0" allowfullscreen></iframe>
+
+      <h3>Code</h3>
+      <p>The current version of Webian Shell being developed is 0.3, you can find the <a href="https://github.com/webianproject/shell">source code</a> on GitHub. You can find the code for the tablet prototype <a href="https://github.com/webianproject/gecko-tablet/tree/pine/b2g/chrome/content">here</a>.</p>
+      <!-- GitHub fork button. -->
+      <p><a class="github-button" href="https://github.com/webianproject/shell/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork webianproject/shell on GitHub">Fork</a></p>
+
+      <h3>Version History</h3>
+      <p>
+        <ul>
+          <li>Version 0.1 Developer Preview (<a href="https://github.com/webianproject/shell/releases/tag/0.1-developer_preview">source code</a>) - based on Mozilla Chromeless</li>
+          <li><a href="0.1">Version 0.1</a> (<a href="https://github.com/webianproject/shell/releases/tag/0.1">source code</a> | <a href="download">download</a>) - based on Mozilla Chromeless</li>
+          <li>Version 0.1.1 (<a href="https://github.com/webianproject/shell/releases/tag/0.1.1">source code</a>) - based on Mozilla Chromeless</li>
+          <li><a href="http://webian.org/dev/wiki/Shell/Design/0.2">Version 0.2</a> (<a href="https://github.com/webianproject/shell/releases/tag/0.2">source code</a>) - based on Mozilla Boot to Gecko
+        </ul>
+      </p>
     </div>
-    <div class="highlight">
-      <h3>Standing on the Shoulders of Giants</h3>
-      <p>Shell is built on <a href="http://mozillalabs.com/chromeless">Mozilla 
-      Chromeless</a>, some of the latest technology from the people who make
-      Firefox. Chromeless allows Shell itself to be written in standard web
-      technologies like HTML, CSS & JavaScript - giving you a pure web 
-      experience</p>
-    </div>
-    <div class="highlight">
-      <h3>Open by Design</h3>
-      <p>Shell is completely open source and is built on open source 
-      technologies and open standards.</p>
-    </div>
-    <div class="highlight">
-      <h3>Webian Needs You!</h3>
-      <p>Because Shell is open source, it relies on its community to move 
-      forward. There are many ways you can 
-      <a href="http://webian.org/dev/wiki/GetInvolved">contribute</a>.
-    </div>
-    
-    
   </section>
-  
+
 </div>
 
 <footer>
-  <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
+  <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2017</p>
 </footer>
 
-<script type="text/javascript"> 
- 
+<!-- GitHub fork button -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-16744701-1']);
   _gaq.push(['_trackPageview']);
- 
+
   (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    var ga = document.createElement('script'); ga.typ	width: 980px;e = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
- 
-</script> 
+
+</script>
 
 </body>
 

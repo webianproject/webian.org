@@ -7,6 +7,7 @@ section {
 div.section_content {
 	width: 75rem;
 	padding: 1rem 0;
+	font-size: 1.4rem;
 }
 
 h2 {
@@ -32,10 +33,6 @@ h3 {
 
 img.mockup {
 	width: 75rem;
-}
-
-p {
-	font-size: 1.4rem;
 }
 
 footer {

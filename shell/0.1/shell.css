@@ -4,50 +4,58 @@
 }
 
 #middle section {
+	clear: both;
 	padding: 40px;
+	margin-top: 20px;
+	text-align: center;
+	overflow: hidden;
 }
 
 #middle section h1 {
 	font-size: 48px;
+	text-align: center;
+	margin: 0;
 	font-weight: normal;
-	margin-top: 0;
 }
 
 #middle section h2 {
 	font-size: 20px;
+	text-align: center;
+	color: #666;
 	font-weight: normal;
-	background-repeat: no-repeat;
-	padding-left: 25px;
-	margin-top: 40px;
+	margin-top: 0;
 }
 
 #middle section .download_link {
-	display: inline;
+	width: 300px;
+	text-align: center;
+	margin-top: 20px;
 }
 
-#middle section ol li {
-	padding: 10px 0;
+#middle section img.cross_platform {
+	display: block;
+	margin: 10px auto;
 }
 
-#middle section ul.code {
-	font-family: monospace;
+#middle section .highlight {
+	width: 410px;
+	float: left;
 }
 
-#middle section ul li {
-	list-style-type: none;
-	padding: 0;
+#middle section h3 {
+	text-align: left;
 }
 
-#middle section h2.mac {
-	background-image: url('../images/mac.png');
+#middle section p {
+	text-align: left;
 }
 
-#middle section h2.windows {
-	background-image: url('../images/windows.png');
+#middle section img.screenshot {
+	margin: 10px auto;
 }
 
-#middle section h2.linux {
-	background-image: url('../images/linux.png');
+sup {
+	font-size: 20px;
 }
 
 .download_link {

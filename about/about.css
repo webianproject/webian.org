@@ -1,57 +1,41 @@
-#middle section {
-	clear: both;
-	padding: 40px;
-	margin-top: 20px;
-}
-
-#middle section h1 {
-	font-size: 40px;
-	font-weight: normal;
-	margin-top: 0;
-	margin-bottom: 20px;	
-}
-
-#middle section h2 {
-	clear: both;	
-}
-
-#mission {
-	font-size: 16px;	
-}
-
 #middle #definition {
 	clear: both;
 	display: block;
-	margin: 20px auto;
-	width: 500px;	
+	margin: 2rem auto;
+	width: 70rem;
+	height: 7rem;
+	padding: 5rem 0;
 }
 
 #middle #definition img {
-	float: left;	
+	height: 6.4rem;
+	float: left;
 }
 
 #middle #definition p {
-	width: 250px;
+	width: 31rem;
 	display: block;
 	float: left;
-	font-size: 16px;
-	padding-left: 10px;
+	font-size: 2rem;
+	padding-left: 1rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	color: #666;
 }
 
-#middle #projects {
-	width: 600px;
-	margin: 0 auto;	
+section {
+	clear: both;
 }
 
-#middle #projects .project {
-	float: left;
-	width: 300px;	
+.section_content {
+	height: auto;
 }
 
-#middle #projects .project p {
-	color: #999;	
+#mission {
+	font-size: 1.6rem;
 }
 
 #founder {
-	clear: both;	
+	text-align: center;
+	font-size: 1.2rem;
 }
