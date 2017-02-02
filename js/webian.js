@@ -18,11 +18,11 @@ $.jGFeed('http://webian.org/blog/feed/', function(feeds){
 			$.timeago(d)+
 			"</span></li>");
 	}
-}, 2);
-$.jGFeed('http://groups.google.com/group/webian/feed/rss_v2_0_topics.xml', function(feeds){
+}, 3);
+$.jGFeed('http://clinked.com/webian/activity/rss', function(feeds){
 	// Check for errors
 	if(!feeds){
-		$("#discussions ul").append("<li>Nothing at the moment</li>");
+		$("#community ul").append("<li>Nothing at the moment</li>");
 	}
 	// do whatever you want with feeds here
 	for(var i=0; i<feeds.entries.length; i++) {
@@ -30,7 +30,7 @@ $.jGFeed('http://groups.google.com/group/webian/feed/rss_v2_0_topics.xml', funct
 		var d = new Date();
 		d.setTime(Date.parse(entry.publishedDate)-28800000);
 		// Entry title
-		$("#discussions ul").append("<li>"+
+		$("#community ul").append("<li>"+
 			"<a href=\""+entry.link+"\">"+
 			entry.title+
 			"</a><br />"+
@@ -39,8 +39,8 @@ $.jGFeed('http://groups.google.com/group/webian/feed/rss_v2_0_topics.xml', funct
 			$.timeago(d)+
 			"</span></li>");
 	}
-}, 2);
-$.jGFeed('http://webian.org/dev/timeline?format=rss', function(feeds){
+}, 3);
+$.jGFeed('https://github.com/webianproject/shell/commits/master.atom', function(feeds){
 	// Check for errors
 	if(!feeds){
 		$("#commits ul").append("<li>Nothing at the moment</li>");
@@ -60,4 +60,4 @@ $.jGFeed('http://webian.org/dev/timeline?format=rss', function(feeds){
 			$.timeago(d)+
 			"</span></li>");
 	}
-}, 2);
+}, 3);
