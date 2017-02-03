@@ -34,6 +34,7 @@ header {
 	width: 100rem;
 	height: 15rem;
 	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 header #wordmark {
@@ -82,7 +83,7 @@ section.dark {
 .section_content {
   width: 100rem;
 	margin: 0 auto;
-	padding: 4rem 0;
+	padding: 4rem 1rem;
 }
 
 h2 {
