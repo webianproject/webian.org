@@ -32,6 +32,7 @@ h3 {
 
 img.mockup {
 	width: 75rem;
+	box-shadow: 0 0 0.5em black;
 }
 
 p {

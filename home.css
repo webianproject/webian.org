@@ -8,6 +8,7 @@
 
 .mockup {
 	width: 60rem;
+	box-shadow: 0 0 0.5em black;
 }
 
 .detail {
@@ -18,11 +19,11 @@
 }
 
 #webian_shell_mockup, #webian_shell_detail {
-	float: right;
+	float: left;
 }
 
 #webian_home_mockup, #webian_home_detail {
-	float: left;
+	float: right;
 }
 
 .section_content {
