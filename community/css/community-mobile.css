@@ -1,0 +1,8 @@
+#contributions {
+  display: block;
+}
+
+#contributions .contribution {
+  max-width: 50rem;
+  margin: 0 auto;
+}

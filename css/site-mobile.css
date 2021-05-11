@@ -1,0 +1,68 @@
+body {
+  min-width: 30rem;
+}
+
+header {
+  height: 13rem;
+}
+
+header #logo {
+  height: 4rem;
+  margin: 0 auto;
+  padding: 4.5rem;
+}
+
+#menu-button {
+  display: block;
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  margin: 5.3rem 3rem;
+  border: none;
+  background-color: transparent;
+  background-image: url(/images/menu-button.svg);
+  opacity: 0.5;
+}
+
+#menu-button:hover, #menu-button:active {
+  opacity: 0.75;
+}
+
+#main-navigation {
+  position: fixed;
+  width: 100%;
+  max-width: 32rem;
+  height: calc(100% - 13rem);
+  top: 13rem;
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+
+#main-navigation.expanded {
+  transform: translateX(0);
+}
+
+#main-navigation li {
+  display: block;
+  width: 100%;
+}
+
+#main-navigation a {
+  display: block;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  padding: 0 3rem;
+}
+
+#main-navigation a:hover {
+  background-color: #4d4d4d;
+}
+
+#main-navigation a.selected {
+  background-color: #4d4d4d;
+}

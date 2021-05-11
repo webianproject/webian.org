@@ -1,106 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Webian - The web operating system</title>
+    <link rel="icon" href="images/icon.svg" />
+    <link rel="stylesheet" type="text/css" href="css/site.css?v=1" />
+    <link rel="stylesheet" type="text/css" href="css/home.css?v=1" />
+    <link rel="stylesheet" media="(max-width: 959px)" href="css/site-mobile.css?v=1" />
+    <link rel="stylesheet" media="(max-width: 959px)" href="css/home-mobile.css?v=1" />
+    <meta name="description" content="The web operating system." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@webianproject" />
+    <meta property="og:title" content="Webian" />
+    <meta property="og:description" content="The web operating system." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://webian.org" />
+    <meta property="og:image" content="http://webian.org/images/banner.png" />
+    <script src="/js/site.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Webian</title>
-  <link rel="stylesheet" type="text/css" href="site.css" />
-  <link rel="stylesheet" type="text/css" href="home.css" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@webianproject" />
-  <meta property="og:title" content="Webian" />
-  <meta property="og:description" content="An operating system for the open web." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://webian.org" />
-  <meta property="og:image" content="http://webian.org/images/webian_home_mockup.png" />
-</head>
-
-<body>
-  <div id="top">
+  <body>
     <header>
-      <a href="/"><img id="wordmark" src="images/webian_wordmark-white.png"></a>
-      <nav>
-        <a class="selected" href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/blog">Blog</a>
-        <a href="/dev">Wiki</a>
-        <a href="http://github.com/webianproject">Code</a>
-      </nav>
+      <button id="menu-button"></button>
+      <img id="logo" src="images/logo.svg" alt="Webian" />
     </header>
-  </div>
-  <div id="middle">
-    <section id="webian_shell" class="dark">
-      <div class="section_content">
-        <img id="webian_shell_mockup" class="mockup" src="images/webian_shell_touch_mockup.png">
-        <div id="webian_shell_detail" class="detail">
-          <img id="webian_shell_wordmark" src="images/webian_shell_wordmark.png" alt="Webian Shell">
-          <p>A graphical shell for the web</p>
-          <a class="button" href="/shell">Find Out More</a>
-        </div>
-      </div>
-    </section>
-    <section id="webian_home" class="light">
-      <div class="section_content">
-        <img id="webian_home_mockup" class="mockup" src="images/webian_home_mockup.png">
-        <div id="webian_home_detail" class="detail">
-          <img id="webian_shell_wordmark" src="images/webian_home_wordmark.png" alt="Webian Home">
-          <p>A home screen for your home</p>
-          <a class="button" href="/home">Find Out More</a>
-      </div>
-      </div>
-    </section>
-  </div>
-  <div id="bottom">
+
+    <nav id="main-navigation">
+      <ul id="main-navigation-list">
+        <li><a class="selected" href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>The web operating system.</h1>
+      <h2>Pure web.</h2>
+      <img id="screenshot" src="images/screenshot.png"
+        alt="Screenshot of a desktop user interface with a grid of icons, a
+        search bar, a taskbar and a power button." />
+      <a id="get-involved-button" href="/community" class="button">Get Involved</a>
+    </main>
+
     <footer>
-      <div id="sitemap">
-        <div class="sitemap_category">
-          <h3>Webian</h3>
-          <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="http://tola.me.uk/contact">Contact</a></li>
-            <li><a href="/press">Press Coverage</a></li>
-          </ul>
-        </div>
-        <div class="sitemap_category">
-          <h3>Discussions</h3>
-          <ul>
-            <li><a href="http://groups.google.com/group/webian">Mailing List</a></li>
-            <li><a href="irc://chat.freenode.net#webian">IRC</a></li>
-          </ul>
-        </div>
-        <div class="sitemap_category">
-          <h3>Development</h3>
-          <ul>
-            <li><a href="/dev">Wiki</li>
-            <li><a href="http://github.com/webianproject">Source Code</a></li>
-            <li><a href="http://github.com/webianproject">Issues</a></li>
-          </ul>
-         </div>
-      </div>
-      <div id="follow">Follow Webian on:
-        <ul>
-          <li><a href="http://www.facebook.com/pages/Webian/113279228682092"><img src="images/facebook.png" alt="Facebook" /></a></li>
-          <li><a href="http://twitter.com/webianproject"><img src="images/twitter.png" alt="Twitter" /></a></li>
-        </ul>
-      </div>
-      <p id="copyright">&copy; <a href="http://tola.me.uk">Ben Francis</a> 2011</p>
-      <p id="trademark_disclaimer">Webian is not affiliated with <a href="http://www.debian.org">Debian</a>, Debian is a registered trademark <a href="http://www.spi-inc.org/corporate/trademarks/">owned by SPI</a>.
-      <br />Webian is not affiliated with <a href="http://mozilla.org">Mozilla</a>. Mozilla is a registered trademark of the <a href="http://mozilla.com">Mozilla Corporation</a>.</p>
+      <nav id="social">
+        <a id="facebook-icon" href="https://www.facebook.com/webianproject/">
+          <img src="/images/facebook_icon.svg" />
+        </a>
+        <a id="github-icon" href="https://github.com/webianproject/">
+          <img src="/images/github_icon.svg" />
+        </a>
+        <a id="twitter-icon" href="https://twitter.com/webianproject">
+          <img src="/images/twitter_icon.svg" />
+        </a>
+      </nav>
+      <p id="copyright">
+        &copy; <a href="http://tola.me.uk">Ben Francis</a> 2021
+      </p>
+      <p id="smallprint">
+        Sponsored by <a href="https://krellian.com">Krellian</a>.<br />
+        Webian is not affiliated with Debian, Debian is a registered trademark owned by SPI.
+      </p>
     </footer>
-  </div>
-  <script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-16744701-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-</body>
-
+  </body>
 </html>

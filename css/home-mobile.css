@@ -1,0 +1,4 @@
+#screenshot {
+  width: calc(100% - 2rem);
+  max-width: 64rem;
+}
