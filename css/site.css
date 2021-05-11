@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("/fonts/opensans-regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url("/fonts/opensans-semibold.woff") format("woff");
+}
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  color: #3771c8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #333;
+  width: 100%;
+  height: 15rem;
+}
+
+#menu-button {
+  display: none;
+}
+
+header #logo {
+  height: 4.8rem;
+  margin: 0 auto;
+  padding: 5.1rem 0;
+  display: block;
+}
+
+#main-navigation {
+  height: 5rem;
+  background-color: #1a1a1a;
+}
+
+#main-navigation ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#main-navigation li {
+  display: inline-block;
+}
+
+#main-navigation a {
+  display: inline-block;
+  height: 5rem;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1.7rem;
+  line-height: 5rem;
+}
+
+#main-navigation a:hover {
+  color: #fff;
+}
+
+#main-navigation a.selected {
+  color: #fff;
+}
+
+.button, input[type=submit] {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 4rem;
+  font-size: 1.7rem;
+  background-color: #90bc5c;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem auto 1rem auto;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.button:hover,
+.button:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+  background-color: #6d953d;
+  text-decoration: none;
+}
+
+footer {
+  padding: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+footer #social a {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-size: 3.2rem;
+  background-repeat: no-repeat;
+  margin: 0.5rem;
+}
+
+footer #social img {
+  opacity: 0.6;
+}
+
+footer #social img:hover {
+  opacity: 0.75;
+}
+
+footer #copyright {
+  display: block;
+}
+
+footer #smallprint {
+  color: #b3b3b3;
+  margin-bottom: 0;
+}
+
+footer #smallprint a {
+  color: #b3b3b3;
+  text-decoration: underline;
+}

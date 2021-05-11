@@ -1,0 +1,84 @@
+#hero {
+  color: #fff;
+  background-image: url('../images/www-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .shade {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 30rem;
+}
+
+#definition {
+  width: 52rem;
+  height: 4.8rem;
+  padding: 12.6rem 0;
+  margin: 0 auto;
+}
+
+#definition img {
+  float: left;
+}
+
+#definition p {
+  float: left;
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 30rem;
+}
+
+main {
+  background-color: #e6e6e6;
+  padding: 2rem 2rem 6rem 2rem;
+}
+
+main section {
+  background-color: #fff;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.bubble, .box {
+  display: block;
+  margin: 0 auto;
+  color: #000;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  max-width: 60rem;
+  text-align: left;
+}
+
+.bubble p, .box p {
+  margin: 2rem;
+}
+
+.bubble {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.bubble::after {
+  position: relative;
+  left: -29px;
+  top: -15px;
+  display: block;
+  transform: rotate(45deg);
+  background-color: white;
+  content: "";
+  width: 18px;
+  height: 18px;
+}
+
+#mission {
+  text-align: center;
+  font-size: 2rem;
+}

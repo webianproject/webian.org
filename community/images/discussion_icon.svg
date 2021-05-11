@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg10337"
+   version="1.1"
+   viewBox="0 0 39.6875 39.6875"
+   height="150"
+   width="150">
+  <defs
+     id="defs10331" />
+  <metadata
+     id="metadata10334">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(208.83184,109.89107)"
+     id="layer1">
+    <g
+       id="g38546"
+       transform="matrix(0.28222223,0,0,0.28222223,-1342.4517,-15096.672)">
+      <g
+         style="stroke-width:1.70666659"
+         transform="matrix(0.58593748,0,0,0.58593748,1541.9856,22816.232)"
+         id="g34287">
+        <circle
+           r="120"
+           cy="51809.02"
+           cx="4343.6206"
+           id="circle34239"
+           style="opacity:1;vector-effect:none;fill:#d46e6e;fill-opacity:1;stroke:none;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+        <g
+           style="fill:#ffffff;stroke-width:6.92377806"
+           transform="matrix(0.23108772,0,0,0.23108772,4286.6002,51745.905)"
+           id="g34231">
+          <path
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6.92377806;stroke-opacity:1"
+             d="M 444.55608,111.58786 H 48.942073 c -26.988,0 -48.941999921511,21.953 -48.941999921511,48.942 v 225.177 c 0,26.988 21.953999921511,48.942 48.941999921511,48.942 H 444.55508 c 26.988,0 48.941,-21.954 48.941,-48.942 v -225.177 c 10e-4,-26.989 -21.952,-48.942 -48.94,-48.942 z m 16.314,48.942 v 225.177 c 0,2.574 -0.725,4.924 -1.793,7.09 l -115.337,-115.346 117.097,-117.097 c 0,0.065 0.033,0.112 0.033,0.176 z m -428.242007,225.176 v -225.176 c 0,-0.064 0.033,-0.11 0.033,-0.175 l 117.096997,117.097 -115.344997,115.344 c -1.06,-2.166 -1.785,-4.515 -1.785,-7.09 z m 219.156007,-62.434 c -2.692,2.691 -7.378,2.691 -10.07,0 L 62.667073,144.21586 H 430.83908 Z m -78.95701,-22.75 45.81801,45.819 c 7.512,7.511 17.493,11.645 28.104,11.645 10.61,0 20.592,-4.134 28.104,-11.645 l 45.82,-45.819 101.49,101.499 H 71.327073 Z"
+             id="path34199" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34201" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34203" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34205" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34207" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34209" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34211" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34213" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34215" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34217" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34219" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34221" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34223" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34225" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34227" />
+          <g
+             style="fill:#ffffff;stroke-width:6.92377806"
+             id="g34229" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

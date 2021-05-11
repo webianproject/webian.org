@@ -1,0 +1,30 @@
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #000;
+  padding: 0 1rem;
+  margin: 5rem auto 0 auto;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #666;
+  padding: 0 1rem;
+  margin: 0.5rem auto 1.5rem auto;
+}
+
+#screenshot {
+  width: 64rem;
+  margin: 2rem 1rem;
+}
+
+#get-involved-button {
+  display: block;
+  width: 12rem;
+  margin: 2rem auto;
+}

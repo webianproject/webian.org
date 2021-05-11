@@ -1,0 +1,16 @@
+#definition {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#definition img, #definition p {
+  float: none;
+  margin: 1rem;
+  text-align: center;
+}

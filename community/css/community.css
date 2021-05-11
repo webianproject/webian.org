@@ -1,0 +1,26 @@
+#contributions {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 8rem 2rem 8rem;
+}
+
+#contributions .contribution {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+#contributions .contribution img {
+  width: 12.8rem;
+}
+
+#contributions .contribution h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+
+#contributions .contribution p {
+  font-size: 1.9rem;
+  margin-top: 0;
+}
