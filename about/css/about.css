@@ -82,3 +82,10 @@ h2 {
   text-align: center;
   font-size: 2rem;
 }
+
+.illustration {
+  display: block;
+  max-width: 100rem;
+  width: calc(100% - 4rem);
+  margin: 4rem auto;
+}
